@@ -1,0 +1,42 @@
+{
+  "Configurations": {
+    "MC": {
+      "P300": {
+        "General": [
+          {
+            "ApiName": "WorkCounterA_Counted",
+            "Type": "general",
+            "SubsystemIndex": 0,
+            "MajorIndex": 3066,
+            "MinorIndex": 0,
+            "StyleCode": 8,
+            "Subscript": 0,
+            "DataFieldName": "WorkCounterA_Counted",
+            "DataFieldDescription": "Work counter A counted value",
+            "DataType": "integer",
+            "CollectionIntervalMs": 5000,
+            "Enabled": true,
+            "MinimumChangeThreshold": 0.00001
+          },
+          {
+            "ApiName": "WorkCounterB_Counted",
+            "Type": "general",
+            "SubsystemIndex": 0,
+            "MajorIndex": 3067,
+            "MinorIndex": 0,
+            "StyleCode": 8,
+            "Subscript": 0,
+            "DataFieldName": "WorkCounterB_Counted",
+            "DataFieldDescription": "Work counter B counted value",
+            "DataType": "integer",
+            "CollectionIntervalMs": 5000,
+            "Enabled": true,
+            "MinimumChangeThreshold": 0.00001
+          }
+        ]
+      }
+    }
+  }
+}
+
+
